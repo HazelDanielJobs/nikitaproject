@@ -2,4 +2,55 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: cursive;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+header {
+  background-color: aliceblue;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.menu-list li a {
+  /* font-size:  */
+  font-size: 1.2em;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.btn-icon button {
+  padding: 14px 20px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border: none;
+  border: thin solid black;
+}
+
+.btn-icon button a {
+  color: 3222;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.fa-bars {
+  display: none;
+  font-size: 2em;
 }
